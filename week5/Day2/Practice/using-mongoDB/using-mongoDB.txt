@@ -1,0 +1,11 @@
+
+> use my-first-db
+switched to db my-first-db
+> db.students.find()                        
+{ "_id" : ObjectId("65c959c1a53ccbfe7f4e0942"), "name" : "Alice", "home_state" : "California", "lucky_number" : 7, "birthday" : { "month" : 5, "day" : 12, "year" : 1995 }, "interests" : [ "coding", "brunch", "MongoDB", "hiking", "taxes" ] }
+{ "_id" : ObjectId("65c959c1a53ccbfe7f4e0943"), "name" : "Bob", "home_state" : "Washington", "lucky_number" : 10, "birthday" : { "month" : 8, "day" : 25, "year" : 1998 }, "interests" : [ "coding", "brunch", "MongoDB", "gardening" ] }
+{ "_id" : ObjectId("65c959c1a53ccbfe7f4e0944"), "name" : "Charlie", "home_state" : "California", "lucky_number" : 3, "birthday" : { "month" : 2, "day" : 
+17, "year" : 1997 }, "interests" : [ "coding", "brunch", "MongoDB", "reading" ] }
+{ "_id" : ObjectId("65c959c1a53ccbfe7f4e0945"), "name" : "David", "home_state" : "Texas", "lucky_number" : 14, "birthday" : { "month" : 11, "day" : 8, "year" : 1994 }, "interests" : [ "coding", "brunch", "MongoDB", "cooking" ] }
+{ "_id" : ObjectId("65c959c1a53ccbfe7f4e0946"), "name" : "Eve", "home_state" : "Washington", "lucky_number" : 9, "birthday" : { "month" : 7, "day" : 4, "year" : 1993 }, "interests" : [ "coding", "brunch", "MongoDB", "painting" ] }
+>
